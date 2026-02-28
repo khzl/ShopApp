@@ -33,3 +33,14 @@
 /Wpf.ViewModels/obj
 /ShopApp.slnx
 /Wpf.ViewModels/Wpf.ViewModels.csproj
+/Shop.Api/bin/Debug/net10.0
+/Shop.Application/bin/Debug/net10.0
+/Shop.Common/bin/Debug/net10.0
+/Shop.Domain/bin/Debug/net10.0
+/Shop.Dtos/bin/Debug/net10.0
+/Shop.Infrastructure/bin/Debug/net10.0
+/Wpf.ClientModels/bin/Debug/net10.0
+/Wpf.ClientServices/bin/Debug/net10.0
+/Wpf.Shared/bin/Debug/net10.0
+/Wpf.UI/bin/Debug/net10.0-windows
+/Wpf.ViewModels/bin/Debug/net10.0
