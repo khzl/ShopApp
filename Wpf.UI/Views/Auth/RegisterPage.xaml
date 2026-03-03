@@ -13,20 +13,19 @@
         <StackPanel Width="320" VerticalAlignment="Center">
             <!-- Label Create Account -->
             <TextBlock Text="Create Account"
-                       FontSize="22" FontWeight="Bold"
-                       Margin="0,0,0,20"
+                       Style="{StaticResource HeaderTextStyle}"
                        HorizontalAlignment="Center"/>
             <!-- TextBox For FullName -->
             <TextBlock Text="FullName: " 
-                       FontSize="12" FontWeight="Bold"/>
+                       Style="{StaticResource BodyTextStyle}"/>
             <TextBox Text="{Binding FullName}"/>
             <!-- TextBox For Email -->
             <TextBlock Text="Email: "
-                       FontSize="12" FontWeight="Bold"/>
+                       Style="{StaticResource BodyTextStyle}"/>
             <TextBox Margin="0,10,0,0"
                      Text="{Binding Email}"/>
             <TextBlock Text="Password: "
-                       FontSize="12" FontWeight="Bold"/>
+                       Style="{StaticResource BodyTextStyle}"/>
             <!-- PasswordBox For Password -->
             <PasswordBox Margin="0,10,0,0"/>
             <!-- Button For Register -->

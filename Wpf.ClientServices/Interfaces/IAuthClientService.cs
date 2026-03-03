@@ -15,5 +15,8 @@ namespace Wpf.ClientServices.Interfaces
 
         // Register 
         public Task<RegisterResponseDto> RegisterAsync(RegisterRequestDto dto);
+
+        // Logout
+        public Task LogoutAsync();
     }
 }

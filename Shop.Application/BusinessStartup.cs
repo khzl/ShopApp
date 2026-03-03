@@ -14,6 +14,7 @@ namespace Shop.Application
             // Here we register our application services , which contain the business logic of our application.
 
             services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<ITokenService, TokenService>();
 
             return services;
         }

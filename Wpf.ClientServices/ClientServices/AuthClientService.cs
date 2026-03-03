@@ -1,5 +1,6 @@
 ﻿using Shop.Dtos.Login;
 using Shop.Dtos.Register;
+using Shop.Dtos.Tokens;
 using System;
 using System.Collections.Generic;
 using System.Net.Http.Json;
@@ -63,5 +64,17 @@ namespace Wpf.ClientServices.Services
             return result;
         }
 
+        // Feature 3 => Logout + Token Handling
+        public async Task LogoutAsync()
+        {
+            await _http.PostAsJsonAsync(
+                "api/auth/logout",
+                new LogoutRequestDto
+                {
+                    RefreshToken = TokenStore.RefreshToken
+                });
+
+            TokenStore.Clear();
+        } 
     }
 }

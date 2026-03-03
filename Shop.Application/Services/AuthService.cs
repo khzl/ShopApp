@@ -31,8 +31,6 @@ namespace Shop.Application.Services
             if (!customer.IsActive)
                 throw new Exception("Account is inactive.");
 
-            if (!BCrypt.Net.BCrypt.Verify(request.Password, customer.PasswordHash))
-                throw new Exception("Invalid credentials");
 
             return new LoginResponseDto
             {

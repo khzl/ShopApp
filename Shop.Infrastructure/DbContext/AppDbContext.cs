@@ -24,6 +24,7 @@ namespace Shop.Infrastructure.DbContext
 
         // Define DbSet properties for each entity to be mapped to database tables 
         public DbSet<Entity_Customer> Customers { get; set; }
+        public DbSet<Entity_RefreshToken> RefreshTokens { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder) 

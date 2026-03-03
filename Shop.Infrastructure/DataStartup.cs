@@ -31,6 +31,7 @@ namespace Shop.Infrastructure
 
             // Dapper Repositories registration
             services.AddScoped<ICustomerRepository, CustomerRepository>();
+            services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
 
             // Return the service collection so the extension can be chained
             return services;
