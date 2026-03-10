@@ -3,10 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using Shop.Infrastructure;
-using Shop.Infrastructure.Interfaces;
 using Shop.Dtos.Login;
 using BCrypt.Net;
 using Shop.Dtos.Register;
+using Shop.Infrastructure.Interfaces.Dapper.Interface.Customers;
 
 namespace Shop.Application.Services
 {

@@ -12,10 +12,10 @@ namespace Shop.Application
             this IServiceCollection services)
         {
             // Here we register our application services , which contain the business logic of our application.
-
+            // DI (Dependancy Injections)
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<ITokenService, TokenService>();
-
+            services.AddScoped<IProductService, ProductService>();
             return services;
         }
     }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Shop.Infrastructure.Interfaces
+namespace Shop.Infrastructure.Interfaces.Dapper.Interface.Tokens
 {
     public interface IRefreshTokenRepository
     {

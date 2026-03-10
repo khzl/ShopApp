@@ -1,11 +1,11 @@
 ﻿using Dapper;
-using Shop.Infrastructure.Interfaces;
+using Shop.Infrastructure.Interfaces.Dapper.Interface.Tokens;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Text;
 
-namespace Shop.Infrastructure.Repositories
+namespace Shop.Infrastructure.Repositories.Dapper.Repositories.Tokens
 {
     public class RefreshTokenRepository : IRefreshTokenRepository
     {

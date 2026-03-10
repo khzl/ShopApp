@@ -11,14 +11,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Wpf.UI.Views.Auth
+namespace Wpf.UI.Views.Admins
 {
     /// <summary>
-    /// Interaction logic for LoginPage.xaml
+    /// Interaction logic for AdminView_UserControl.xaml
     /// </summary>
-    public partial class LoginPage : Page
+    public partial class AdminView_UserControl : UserControl
     {
-        public LoginPage()
+        public AdminView_UserControl()
         {
             InitializeComponent();
         }

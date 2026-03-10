@@ -11,14 +11,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Wpf.UI.Views.Cart
+namespace Wpf.UI.Views.Orders
 {
     /// <summary>
-    /// Interaction logic for CartPage.xaml
+    /// Interaction logic for CheckoutView_UserControl.xaml
     /// </summary>
-    public partial class CartPage : Page
+    public partial class CheckoutView_UserControl : UserControl
     {
-        public CartPage()
+        public CheckoutView_UserControl()
         {
             InitializeComponent();
         }

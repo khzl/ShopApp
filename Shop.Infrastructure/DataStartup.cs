@@ -8,8 +8,12 @@ using Dapper;
 using System.Data;
 using Microsoft.Data.SqlClient;
 using Shop.Infrastructure.DbContext;
-using Shop.Infrastructure.Interfaces;
-using Shop.Infrastructure.Repositories;
+using Shop.Infrastructure.Interfaces.Dapper.Interface.Customers;
+using Shop.Infrastructure.Interfaces.Dapper.Interface.Tokens;
+using Shop.Infrastructure.Repositories.Dapper.Repositories.Customers;
+using Shop.Infrastructure.Repositories.Dapper.Repositories.Tokens;
+using Shop.Infrastructure.Interfaces.Dapper.Interface.Products;
+using Shop.Infrastructure.Repositories.Dapper.Repositories.Products;
 
 namespace Shop.Infrastructure
 {
@@ -32,6 +36,7 @@ namespace Shop.Infrastructure
             // Dapper Repositories registration
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
+            services.AddScoped<IProductQueryRepository, ProductQueryRepository>();
 
             // Return the service collection so the extension can be chained
             return services;

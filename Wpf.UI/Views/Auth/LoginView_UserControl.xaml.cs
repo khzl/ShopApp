@@ -11,14 +11,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Wpf.UI.Views.Orders
+namespace Wpf.UI.Views.Auth
 {
     /// <summary>
-    /// Interaction logic for CheckoutPage.xaml
+    /// Interaction logic for LoginView_UserControl.xaml
     /// </summary>
-    public partial class CheckoutPage : Page
+    public partial class LoginView_UserControl : UserControl
     {
-        public CheckoutPage()
+        public LoginView_UserControl()
         {
             InitializeComponent();
         }

@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Shop.Domain.Entities
+namespace Shop.Dtos.Products
 {
-    public class Entity_Product
+    public class Product_Dto
     {
         #region Properties
         public int ProductId { get; set; }
         public string? Name { get; set; }
         public decimal Price { get; set; }
-        public int StockQuantity { get; set; }
         #endregion
     }
 }

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Shop.Infrastructure.Interfaces
+namespace Shop.Infrastructure.Interfaces.Dapper.Interface.Customers
 {
     public interface ICustomerRepository
     {

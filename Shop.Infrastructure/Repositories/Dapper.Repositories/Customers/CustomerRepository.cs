@@ -1,13 +1,13 @@
 ﻿using Dapper;
 using Shop.Domain.Entities;
-using Shop.Infrastructure.Interfaces;
+using Shop.Infrastructure.Interfaces.Dapper.Interface.Customers;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Text;
 
-namespace Shop.Infrastructure.Repositories
+namespace Shop.Infrastructure.Repositories.Dapper.Repositories.Customers
 {
     public class CustomerRepository : ICustomerRepository
     {

@@ -11,14 +11,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Wpf.UI.Views.Auth
+namespace Wpf.UI.Views.Cart
 {
     /// <summary>
-    /// Interaction logic for RegisterPage.xaml
+    /// Interaction logic for CartView_UserControl.xaml
     /// </summary>
-    public partial class RegisterPage : Page
+    public partial class CartView_UserControl : UserControl
     {
-        public RegisterPage()
+        public CartView_UserControl()
         {
             InitializeComponent();
         }

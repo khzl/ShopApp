@@ -1,6 +1,6 @@
 ﻿using Shop.Application.Interfaces;
 using Shop.Dtos.Tokens;
-using Shop.Infrastructure.Interfaces;
+using Shop.Infrastructure.Interfaces.Dapper.Interface.Tokens;
 using System;
 using System.Collections.Generic;
 using System.Text;

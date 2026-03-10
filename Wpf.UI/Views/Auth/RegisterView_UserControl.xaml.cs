@@ -11,14 +11,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Wpf.UI.Views.Orders
+namespace Wpf.UI.Views.Auth
 {
     /// <summary>
-    /// Interaction logic for OrdersHistoryPage.xaml
+    /// Interaction logic for RegisterView_UserControl.xaml
     /// </summary>
-    public partial class OrdersHistoryPage : Page
+    public partial class RegisterView_UserControl : UserControl
     {
-        public OrdersHistoryPage()
+        public RegisterView_UserControl()
         {
             InitializeComponent();
         }
