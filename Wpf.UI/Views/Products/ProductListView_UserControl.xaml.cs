@@ -10,6 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Wpf.ViewModels.ViewModels;
 
 namespace Wpf.UI.Views.Products
 {
@@ -21,6 +22,8 @@ namespace Wpf.UI.Views.Products
         public ProductListView_UserControl()
         {
             InitializeComponent();
+            // ربط الـ ProductsViewModel in This View using DataContext 
+            //DataContext = new ProductsViewModel();
         }
     }
 }

@@ -30,6 +30,12 @@ namespace Shop.Infrastructure.DbContext
 
         protected override void OnModelCreating(ModelBuilder modelBuilder) 
         {
+            /*
+             * ApplyConfigurationsFromAssembly
+             * هذا يقرأ كل ملفات 
+             * Configuration تلقائيا 
+             */
+
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
             base.OnModelCreating(modelBuilder);
         }

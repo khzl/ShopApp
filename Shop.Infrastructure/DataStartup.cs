@@ -27,6 +27,8 @@ namespace Shop.Infrastructure
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(
                     configuration.GetConnectionString("DefaultConnection")));
+            // هذا يمرره للـ UseSqlServer داخل AppDbContext
+
 
             // Dapper registration for raw SQL queries and stored procedures 
             services.AddScoped<IDbConnection>(sp =>

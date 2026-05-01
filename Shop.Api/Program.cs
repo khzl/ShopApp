@@ -7,8 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 // Add Layers from different projects 
-builder.Services.AddDataLayer(builder.Configuration);
-builder.Services.AddBusinessLayer();
+// Add Modular 
+builder.Services.AddDataLayer(builder.Configuration); // Add DataStartup.cs
+builder.Services.AddBusinessLayer(); // Add BusinessStartup.cs
+
 
 // Add services to the container.
 
